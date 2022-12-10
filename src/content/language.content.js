@@ -30,7 +30,7 @@ const languages = {
             aaar: 'Təsisçi'
         },
         maps: {
-            aaaa: 'Yığım Məntələri',
+            aaaa: 'Yığım Məntəqələri',
             aaab: 'Nizami',
             aaac: '1025 Ayaz İsmayılov küçəsi',
             aaad: 'Xətai',
