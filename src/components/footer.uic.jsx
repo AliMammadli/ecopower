@@ -40,7 +40,7 @@ export const Footer = () => {
         <div style={sty.footer}>
             <nav className='container' style={sty.footerInner}>
                 <h5 style={sty.copyright}>{Content(appSnap.language, 'footer', 'aaaa')}</h5>
-                <h5>{appSnap.language}</h5>
+                {/* <h5>{appSnap.language}</h5> */}
                 {/* <a style={sty.region} href="https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies" target="_blank">Azerbaijan</a> */}
                 {STApp.language === 'az' && <button style={sty.region} onClick={() => { STApp.language = 'en' }}>English</button>}
                 {STApp.language === 'en' && <button style={sty.region} onClick={() => { STApp.language = 'az' }}>Azərbaycan</button>}

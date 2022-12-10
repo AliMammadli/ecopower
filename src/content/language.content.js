@@ -26,8 +26,8 @@ const languages = {
             aaan: 'Ödəniş edirik.',
             aaao: 'Kütlə',
             aaap: 'Batareyalar təbiəti çirkləndirən əsas tullantılardan biridir. Yenidən istifadə bu çirklənmənin qarşısını almağa töhvə verəcək. Tullantısız, təmiz dünyaya birlikdə addımlayaq.',
-            aaaq: 'filankes',
-            aaar: 'nese'
+            aaaq: 'Cənnət Səmədov',
+            aaar: 'Təsisçi'
         },
         maps: {
             aaaa: 'Yığım Məntələri',
