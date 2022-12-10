@@ -1,0 +1,103 @@
+.page {
+    display: block;
+}
+
+.cardHeader {
+    flex-direction: column;
+    font-size: 90px;
+    font-variation-settings: "wght" 500;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.cardHeaderLabel1 {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.cardHeaderLabel2 {
+    background-image: linear-gradient( 110.5deg,  rgba(71,114,148,1) 14.9%, rgba(149,245,211,1) 77.9% );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.cardHeaderLabel3 {
+    /* background-image: linear-gradient( 122.3deg,  rgba(111,71,133,1) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,1) 84.8% ); */
+    background-image: linear-gradient( 111.6deg,  rgba(73,235,221,1) -0%, rgba(83,222,219,1) 7.1%, rgba(105,191,217,1) 13.4%, rgba(127,157,214,1) 18%, rgba(155,113,208,1) 23.9%, rgba(178,73,201,1) 28.8%, rgba(200,45,192,1) 33.3%, rgba(213,42,180,1) 38%, rgba(232,44,145,1) 44.2%, rgba(239,45,128,1) 52.4%, rgba(249,66,107,1) 59.7%, rgba(252,105,98,1) 67.3%, rgba(252,105,98,1) 74.4%, rgba(254,145,92,1) 82.2%, rgba(255,189,86,1) 88.2%, rgba(254,227,80,1) 92.8%, rgba(254,248,75,1) 98.4% );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.card1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 67px;
+    border-radius: 30px;
+    background: url('../assets/images/bg-gradient-7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -400px;
+}
+
+.card2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 67px;
+    border-radius: 30px;
+    background: url('../assets/images/bg-gradient-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 67px;
+    border-radius: 30px;
+    background: url('../assets/images/bg-gradient-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardDetails {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.cardDetails > h3 {
+    font-size: 56px;
+    font-variation-settings: "wght" 500;
+}
+
+.cardDetails > h4 {
+    margin: 5px 0 70px;
+    font-size: 30px;
+    font-variation-settings: "wght" 300;
+}
+
+.cardImg1 {
+    width: 70%;
+}
+
+.cardImg2 {
+    width: 100%;
+}
+
+.cardImg3 {
+    width: 100%;
+}

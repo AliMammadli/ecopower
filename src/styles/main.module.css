@@ -1,0 +1,295 @@
+.page {
+    display: block;
+}
+
+.headerTop {
+    height: 380px;
+    background: url('../assets/images/power-bank-1.png');
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    background-position: 90px -277px;
+}
+
+.headerTop>img {
+    width: 80%;
+}
+
+.header {
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerTitle {
+    color: var(--primary-label);
+    font-size: 120px;
+    letter-spacing: -0.015em;
+    font-variation-settings: "wght" 400;
+}
+
+.headerTitle>span {
+    color: var(--primary-tint);
+    /* font-family: 'FG Klara' !important; */
+}
+
+.headerSubtitle {
+    color: var(--primary-label);
+    margin-top: 32px;
+    max-width: 28ch;
+    font-size: 40px;
+    font-variation-settings: "wght" 600;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.headerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 36px;
+    border: none;
+    background-color: transparent;
+}
+
+.headerButton>p {
+    font-size: 28px;
+    min-width: fit-content;
+    font-variation-settings: "wght" 600;
+    letter-spacing: .007em;
+}
+
+.plus {
+    height: 36px;
+    margin-left: 8px;
+}
+
+.underline {
+    width: 80%;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+}
+
+@media (max-width: 1200px) {
+    .headerTop {
+        height: 330px;
+        background-position: 90px -260px;
+    }
+}
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 67px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.card>h3 {
+    font-size: 56px;
+    max-width: 25ch;
+    font-variation-settings: "wght" 400;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+.cardContent {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.descContentInner {
+    margin: 30px 12px;
+}
+
+.descContent,
+.descContentInner {
+    flex-direction: column;
+    align-items: center;
+}
+
+.descContent  > img,
+.descContentInner > img {
+    width: 95px;
+}
+
+.descContent > h4,
+.descContentInner > h4 {
+    color: var(--primary-label);
+    font-size: 40px;
+    line-height: 1.1;
+    font-family: 'FG Klara' !important;
+    font-variation-settings: "wght" 400;
+    text-align: center;
+}
+
+.descContent > p,
+.descContentInner > p {
+    font-size: 16px;
+    max-width: 17ch;
+    color: var(--primary-label);
+    font-variation-settings: "wght" 500;
+    letter-spacing: -0.016em;
+    text-align: center;
+}
+
+.imgRot1 {
+    transform: scaleX(-1);
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+.imgRot2 {
+    transform: rotate(180deg);
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.imgRot3 {
+    transform: rotate(180deg) scaleX(-1);
+    margin-right: 75px;
+    margin-top: 15px;
+}
+
+.imgContent>img {
+    width: 420px;
+}
+
+.cardSmallWrap {
+    justify-content: space-between;
+}
+
+.cardSmall {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-top: 30px;
+    padding: 67px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.cardSmall>h3 {
+    color: var(--primary-label);
+    font-size: 56px;
+    max-width: 25ch;
+    font-variation-settings: "wght" 400;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+.iconImg {
+    margin: 20px 0;
+}
+
+.iconImg > img {
+    width: 65px;
+}
+
+.cardBlack {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 67px;
+    border-radius: 30px;
+    background-color: var(--primary-label);
+}
+
+.cardBlack>h3 {
+    color: white;
+    font-size: 56px;
+    max-width: 25ch;
+    font-variation-settings: "wght" 400;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+.powerful {
+    color: #00d959 !important;
+    margin-top: 36px;
+    text-shadow: 0 0 28px #537e56, 0 0 40px #008009, 0 0 54px #008009;
+    animation: neontext 4s ease-in-out infinite;
+}
+
+@keyframes neontext {
+    0% { text-shadow: 0 0 0 transparent; }
+    50% { text-shadow: 0 0 28px #537e56, 0 0 40px #008009, 0 0 54px #008009; }
+    100% { text-shadow: 0 0 0 transparent; }
+}
+
+.sliderContainer {
+    flex-direction: column;
+}
+
+.sliderDisplay {
+    font-size: 120px;
+    font-variation-settings: "wght" 500;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 70px 0 40px;
+}
+
+.sliderDisplay > h1 {
+    background-image: linear-gradient( 109.6deg,  rgba(255,174,0,1) 11.2%, rgba(255,0,0,1) 100.2% );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.sliderLabel {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sliderLabel > h4 {
+    color: white;
+    margin: 12px;
+    font-size: 30px;
+    font-variation-settings: "wght" 400;
+}
+
+.sliderLabel > h5 {
+    color: white;
+    margin: 12px;
+    font-size: 30px;
+    font-variation-settings: "wght" 400;
+}
+
+.quote {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 240px;
+}
+
+.quote > h5 {
+    color: var(--primary-label);
+    font-size: 48px;
+    max-width: 28ch;
+    font-variation-settings: "wght" 400;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.quote > h5 > span {
+    color: var(--primary-tint);
+    font-family: 'FG Klara' !important;
+    line-height: 1;
+}
+
+.quoteTitle {
+    color: var(--primary-label);
+    font-size: 21px;
+    margin-top: 52px;
+    font-variation-settings: "wght" 600;
+}
+
+.quoteSubtitle {
+    color: var(--secondary-label);
+    font-size: 21px;
+    font-variation-settings: "wght" 600;
+}

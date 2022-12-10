@@ -1,0 +1,38 @@
+.page {
+    display: block;
+}
+
+.blog {
+    flex-direction: column;
+    padding: 100px 100px;
+    background-color: white;
+    margin: 100px 70px;
+    border-radius: 14px;
+
+}
+
+.blogDetails {
+    color: var(--secondary-label);
+    font-size: 12px;
+    font-variation-settings: "wght" 400;
+}
+
+.blogTitle {
+    color: var(--primary-tint);
+    font-size: 64px;
+    font-variation-settings: "wght" 400;
+    margin-top: 25px;
+}
+
+.blogSubtitle {
+    color: var(--primary-label);
+    font-size: 24px;
+    font-variation-settings: "wght" 400;
+    margin: 10px 0 70px;
+}
+
+.blogContent {
+    color: var(--primary-label);
+    font-size: 19px;
+    font-variation-settings: "wght" 400;
+}

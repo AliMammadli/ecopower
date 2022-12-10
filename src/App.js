@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Main } from './pages/main.ui'
+import { Maps } from './pages/maps.ui'
+import { Ecobank } from './pages/ecobank.ui'
+import { Blog } from './pages/blog.ui'
+
+import { Navbar } from './components/navbar.uic'
+import { Footer } from './components/footer.uic'
+
+
+export const App = () => {
+    return (
+        <div style={{ display: 'block', width: '100%' }}>
+            <Navbar />
+            <div style={{ height: '50px' }} />
+            <Routes>
+                <Route path='/*' element={<Main />} />
+                <Route exact path='/' element={<Main />} />
+                <Route path='/home' element={<Main />} />
+                <Route path='/maps' element={<Maps />} />
+                <Route path='/ecobank' element={<Ecobank />} />
+                <Route path='/blog' element={<Blog />} />
+            </Routes>
+            <Footer />
+        </div>
+    )
 }
-
-export default App;
